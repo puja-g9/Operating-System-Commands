@@ -1,0 +1,38 @@
+1.cd /tmp
+mkdir CSI310_116
+cd CSI310_116
+cd ..
+cd ..
+2.cd /home/puja/Downloads
+mv File1.txt File2.txt File3.txt /tmp/CSI310_116
+cd ..
+cd /tmp
+cd CSI310_116
+ls
+3.gedit File2.txt
+4.read n
+echo $n
+head -$n File1.txt
+read m
+echo $m
+tail -$m File2.txt
+5.touch File_116
+ls
+read n m
+echo $n $m
+head -$n File1.txt > File_116.txt ; tail -$m File2.txt >> File_116.txt
+6.cat File_116.txt File3.txt ; wc -lw File_116.txt
+7.head -14 File_116.txt | tail -6
+8.sudo useradd user_116
+sudo passwd user_116
+sudo chown user_116 File_116.txt
+su user_116
+chmod 164 File_116.txt
+su puja
+9.su user_116
+nano File_116.txt (permission denied)
+10.su puja
+cd /tmp
+ls
+rm -r CSI310_116
+ls
